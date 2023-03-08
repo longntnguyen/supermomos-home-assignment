@@ -165,7 +165,7 @@ export default function SocialForm({
   return (
     <>
       <Box sx={{ display: "flex", gap: 2 }}>
-        <Box sx={{ maxWidth: "50%" }}>
+        <Box sx={{ maxWidth: "500px" }}>
           <Box>
             {!formValue.title && isSubmitted && (
               <Typography sx={{ color: "red" }}>
